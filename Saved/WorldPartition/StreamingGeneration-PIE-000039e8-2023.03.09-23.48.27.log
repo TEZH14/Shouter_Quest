@@ -1,0 +1,53 @@
+[+] Containers:
+ |- [+] Container: /Game/MyProject/Maps/ThirdPersonMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:1C5AEE0641D29A151AB2DF873456F576 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:409029A545AFACD6B229EEAF917B9694 BaseClass:/Game/MyProject/Blueprints/Characters/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C NativeClass:/Script/Engine.Character Name:BP_ThirdPersonCharacter_C_UAID_089798A98DC1366C01_1558505716 Label:BP_ThirdPersonCharacter SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1089.261 Y=1198.126 Z=-0.000), Max=(X=1159.261 Y=1286.019 Z=182.839) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:42B8224849F710B5B3DBE5ACBFB85DA5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_089798A98DC1796D01_1978006559 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1452.083 Y=1707.105 Z=160.645), Max=(X=1552.083 Y=1807.105 Z=260.645) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9F9590D84BE5489317D809AF1A43A0CC BaseClass:/Game/MyProject/Blueprints/AI_Enemy/BP_AI_Character.BP_AI_Character_C NativeClass:/Script/Engine.Character Name:BP_AI_Character_C_UAID_089798A98DC17B6D01_1762643911 Label:BP_AI_Character SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=551.038 Y=1991.809 Z=0.000), Max=(X=627.855 Y=2067.855 Z=180.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:BA9D9FC3482A6F9688F2408FE0AE4F1C BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_089798A98DC17D6D01-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:BDF3CBB04BFC2A427B804B872EA4CFFE BaseClass:/Game/MyProject/Blueprints/Weapon/BP_Weapon.BP_Weapon_C NativeClass:/Script/Engine.Actor Name:Weapon_C_UAID_089798A98DC1356C01_1452274539 Label:Weapon SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1464.627 Y=666.282 Z=8.104), Max=(X=1528.627 Y=759.126 Z=72.104) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:BF2CD10F450547B93204389D29287A38 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_089798A98DC17D6D01_1748288265 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-680.392 Y=7.105 Z=-788.646), Max=(X=3013.358 Y=3407.105 Z=792.604) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:C3206B4B41C4FC1DC04EB8903AC6E364 BaseClass: NativeClass:/Script/Engine.SkeletalMeshActor Name:SkeletalMeshActor_UAID_089798A98DC1356C01_1288461537 Label:SK_KA47 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1297.465 Y=239912.299 Z=17.057), Max=(X=1302.199 Y=239999.375 Z=43.847) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:BF2CD10F450547B93204389D29287A38 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_089798A98DC17D6D01_1748288265 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-680.392 Y=7.105 Z=-788.646), Max=(X=3013.358 Y=3407.105 Z=792.604) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:9F9590D84BE5489317D809AF1A43A0CC BaseClass:/Game/MyProject/Blueprints/AI_Enemy/BP_AI_Character.BP_AI_Character_C NativeClass:/Script/Engine.Character Name:BP_AI_Character_C_UAID_089798A98DC17B6D01_1762643911 Label:BP_AI_Character SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=551.038 Y=1991.809 Z=0.000), Max=(X=627.855 Y=2067.855 Z=180.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:42B8224849F710B5B3DBE5ACBFB85DA5 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_089798A98DC1796D01_1978006559 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1452.083 Y=1707.105 Z=160.645), Max=(X=1552.083 Y=1807.105 Z=260.645) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:409029A545AFACD6B229EEAF917B9694 BaseClass:/Game/MyProject/Blueprints/Characters/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C NativeClass:/Script/Engine.Character Name:BP_ThirdPersonCharacter_C_UAID_089798A98DC1366C01_1558505716 Label:BP_ThirdPersonCharacter SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1089.261 Y=1198.126 Z=-0.000), Max=(X=1159.261 Y=1286.019 Z=182.839) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |   |- Guid:BDF3CBB04BFC2A427B804B872EA4CFFE BaseClass:/Game/MyProject/Blueprints/Weapon/BP_Weapon.BP_Weapon_C NativeClass:/Script/Engine.Actor Name:Weapon_C_UAID_089798A98DC1356C01_1452274539 Label:Weapon SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1464.627 Y=666.282 Z=8.104), Max=(X=1528.627 Y=759.126 Z=72.104) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:C3206B4B41C4FC1DC04EB8903AC6E364 BaseClass: NativeClass:/Script/Engine.SkeletalMeshActor Name:SkeletalMeshActor_UAID_089798A98DC1356C01_1288461537 Label:SK_KA47 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1297.465 Y=239912.299 Z=17.057), Max=(X=1302.199 Y=239999.375 Z=43.847) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:BA9D9FC3482A6F9688F2408FE0AE4F1C BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_089798A98DC17D6D01-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:1C5AEE0641D29A151AB2DF873456F576 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 0x0000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/MyProject/Maps/ThirdPersonMap
+----------------------------------------------------------------------------------------------------------------
+ThirdPersonMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+Always loaded Actor Count: 14 
+
+----------------------------------------------------------------------------------------------------------------
+ThirdPersonMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
